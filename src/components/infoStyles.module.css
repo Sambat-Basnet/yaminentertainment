@@ -1,0 +1,30 @@
+.mainContent {
+  background-color: #1a191f;
+  color: white;
+  padding: 2rem 0;
+  min-width: 100vw;
+  height: fit-content;
+}
+
+.content {
+  margin: 1rem auto;
+  width: 80%;
+}
+
+.content h1 {
+  padding: 0 0 1.3rem 0;
+  font-weight: 400;
+  color: rgb(228, 228, 228);
+}
+
+.content h1 span {
+  font-weight: 600;
+}
+
+.content p {
+  margin-bottom: 1rem;
+  line-height: 1.9;
+  font-size: 15px;
+  color: rgb(228, 228, 228);
+  font-weight: 300;
+}

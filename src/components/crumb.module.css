@@ -1,0 +1,44 @@
+.mainCrumb {
+  height: 150px;
+  margin-top: 80px;
+  background: linear-gradient(rgba(26, 25, 31, 0.85), rgba(26, 25, 31, 0.85)),
+    url("/assets/theatre.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.crumb {
+  height: 100%;
+  color: rgb(226, 226, 226);
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title h1 {
+  font-weight: 500;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 147px;
+}
+
+.location h4 {
+  font-weight: 400;
+}
+
+.location .BsArrowRight:last-child {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .crumb {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,39 @@
+.mainExpected {
+  /* height: 60vh; */
+  height: fit-content;
+  background: linear-gradient(rgba(26, 25, 31, 0.85), rgba(26, 25, 31, 0.85)),
+    url("/assets/theatre.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.prem {
+  display: flex;
+  flex-direction: column;
+}
+
+.expectTitle {
+  width: 80%;
+  color: rgb(226, 226, 226);
+  margin: 2rem auto;
+  padding-top: 1rem;
+}
+
+.expectTitle h1 {
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.expectMovie {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.expectMovie::-webkit-scrollbar {
+  display: none;
+}

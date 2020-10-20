@@ -1,0 +1,72 @@
+.genSelect {
+  background-color: #1a191f;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  color: rgb(226, 226, 226);
+}
+
+.genreContainer {
+  width: 100%;
+  border-bottom: 1px solid rgba(94, 94, 94, 0.541);
+  /* background-color: red; */
+}
+
+.genremain {
+  width: 100%;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  /* background-color: green; */
+}
+
+.genremain::-webkit-scrollbar {
+  display: none;
+}
+
+.genreContainer ul {
+  display: flex;
+  width: 88%;
+  min-width: 960px;
+
+  margin: 0 auto;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.arrowRight {
+  display: none;
+}
+
+.genreContainer ul li h1 {
+  font-size: 17px;
+  padding-top: 2rem;
+  padding-bottom: 12px;
+  cursor: pointer;
+  /* border-bottom: 1px solid yellow; */
+  font-weight: 400;
+}
+
+.genreMovie {
+  display: flex;
+  padding: 2rem 0;
+  flex-wrap: wrap;
+  width: 95%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .arrowRight {
+    display: block;
+    position: absolute;
+    color: #ffd80e;
+    right: 0;
+    top: 1rem;
+    /* transform: translateY(-50%); */
+    font-size: 50px;
+  }
+  .genremain {
+    width: 90%;
+  }
+}
